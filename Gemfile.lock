@@ -99,7 +99,7 @@ GEM
     connection_pool (2.5.3)
     crass (1.0.6)
     csv (3.3.5)
-    date (3.4.1)
+    date (3.5.1)
     debug (1.11.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
@@ -173,7 +173,8 @@ GEM
     loofah (2.24.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mail (2.8.1)
+    mail (2.9.1)
+      logger
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -189,12 +190,12 @@ GEM
     multipart-post (2.4.1)
     net-http (0.6.0)
       uri
-    net-imap (0.5.9)
+    net-imap (0.6.6)
       date
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.2.2)
+    net-protocol (0.3.0)
       timeout
     net-scp (4.1.0)
       net-ssh (>= 2.6.5, < 8.0.0)
@@ -399,7 +400,7 @@ GEM
     thruster (0.1.14)
     thruster (0.1.14-aarch64-linux)
     thruster (0.1.14-x86_64-linux)
-    timeout (0.4.3)
+    timeout (0.6.1)
     turbo-rails (2.0.16)
       actionpack (>= 7.1.0)
       railties (>= 7.1.0)
